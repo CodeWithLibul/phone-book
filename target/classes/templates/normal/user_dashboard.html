@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http;//www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<section>
+<div class="container">
+
+<div class="card">
+
+<div class="card-body text-center">
+
+
+<img src="" style="height: 200px; width: 200px;"
+						class="my_profile_picture" th:src="@{'/img/default.png'}"
+						alt="profile photo" />
+
+
+
+</div>
+
+</div>
+
+
+</div>
+</section>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html xmlns:th="http;//www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>User Dashboard</title>
+</head>
+<body>
+<h1>Welcome to your noraml user ,</h1>
+<h1>this is your private Dashboard </h1>
+
+<h1>User Name <span th:text="${user.name}"></span></h1>
+
+<h1>User Email <span th:text="${user.email}"></span></h1>
+
+<h1><a href="" th:href="@{/logout}">Logout</h1>
+
+</body>
+</html> -->
